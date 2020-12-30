@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100%;
+}
+.container {
+    padding: 10px;
+}
+
+.nav-link {
+    color: black;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: rgb(255, 120, 1);
+}
+
+.textStyle {
+    color: black;
+}
+.textStyle:hover {
+    color: rgb(255, 120, 1);
+}
+
+
+.section-img {
+    background-image: url(../img/image.jpg);
+    background-position: center center;
+    height: 100vh;
+    min-height: 20rem; /*Altura minima para que no se deforme*/
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.titulo {
+    color: white;
+    border-color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.parrafo {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
