@@ -37,15 +37,33 @@ body {
     background-size: cover;
 }
 
-.titulo {
+
+.section-img  {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+}
+
+.contenedor-img {
+    max-width: 100%;
+}
+
+.section-img h1 {
+    padding-top: 30%;
+    text-align: center;
     color: white;
     border-color: white;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
 }
 
-.parrafo {
+.section-img p {
+    text-align: center;
+    max-width: 100%;
     color: white;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 40px;
+}
+
+.textImg {
+    max-width: 100%;
 }
