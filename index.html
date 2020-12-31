@@ -16,8 +16,8 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
         <a class="navbar-brand textStyle" href="#"><Strong>Grupo Yes!</Strong></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+        <button class="navbar-toggler" type="button" id="btn_nav" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" id="icon_navbar" style="font-size: 1.4em;"></i>
         </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -168,9 +168,15 @@
 		} else {
 			$('.ir-arriba').slideUp(300);
 		}
-	});
+  });
 });
-
+$('#btn_nav').click(function(){
+    if($('#icon_navbar').hasClass('fa-bars')){
+      $('#icon_navbar').removeClass('fa-bars').addClass('fa-times');   
+    }else{
+      $('#icon_navbar').removeClass('fa-times').addClass('fa-bars');   
+    }
+	});
 
 </script>
 </html>
