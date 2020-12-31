@@ -55,18 +55,33 @@ body {
 
 
 .slider2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 9%;
+    padding-top: 5%;
+    background-image: url(../img/healthcare.jpg);
     height: 40vh;
     background-size: cover;
     background-position: center center;
-    background-color: #72A0C1;
+   
 }
+.slider2  { 
+   padding-top: 0%;
+ }
 
-
-.slider2 h2 {
+.slider2 h2 { 
    font-weight: 700;
    color: white;
 }
-
+.slider2 p {
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+ }
+ .slider2 button {
+    width: 29%;
+    font-weight: 300;
+ }
 .ir-arriba {
 	display:none;
 	padding:20px;
