@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    var anio = (new Date).getFullYear();
+    $('#fecha').text( anio );
+
     $('a[href^="#"]').click(function() {
       var destino = $(this.hash);
       if (destino.length == 0) {
@@ -31,4 +34,5 @@ $('#btn_nav').click(function(){
     }else{
       $('#icon_navbar').removeClass('fa-times').addClass('fa-bars');   
     }
-	});
+    });
+    
