@@ -53,3 +53,28 @@ body {
 }
 
 
+
+.slider2 {
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-color: #72A0C1;
+}
+
+
+.slider2 h2 {
+   font-weight: 700;
+   color: white;
+}
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#515f62;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
